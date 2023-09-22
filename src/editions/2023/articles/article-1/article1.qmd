@@ -1,0 +1,56 @@
+---
+title: "Article Title"
+jupyter: python3
+format:
+  html:
+    code-fold: true
+date: 2008-02-29
+author:
+  - name: Author Name
+    email: author@email.com
+    affiliation: 
+      - name: Stanford University
+        city: Stanford
+        state: CA
+        url: www.stanford.edu
+abstract: > 
+  Abstract of the work
+keywords:
+  - Metaphysics
+  - String Theory
+
+copyright: 
+  holder: CESTA
+  year: 2023
+citation: 
+  container-title: Anthology by CESTA
+  edition: 1
+---
+
+# Heading 1
+:::{.column-page}
+<!-- ![](images/elephant.jpg) -->
+
+Hello
+:::
+## Heading 2
+For a demonstration of a line plot on a polar axis, see @fig-polar.
+
+```{python}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+### Heading 3 
