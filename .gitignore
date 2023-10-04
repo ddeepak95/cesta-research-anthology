@@ -3,3 +3,4 @@
 .quarto
 public
 /.luarc.json
+_freeze

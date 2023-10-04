@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: public
 
+execute:
+  freeze: auto
+
 website:
   title: "CESTA Research Anthology"
   favicon: "utils/imgs/favicon.ico"
