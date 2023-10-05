@@ -1,9 +1,15 @@
 ---
 title: Home
 css: "utils/style/home-style.css"
+listing: 
+    - id: 2023-edition
+      contents: 
+          - "editions/2023/article-1"
+          - "editions/2023/article-2"
+      type: "default" 
 ---
 
 ## 2023 Edition
-
-Hello hello 2
+:::{#2023-edition}
+:::
 
