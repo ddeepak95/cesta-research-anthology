@@ -1,23 +1,21 @@
 [
   {
     "listing": "/editions/index.html",
-    "items": [
-      "/editions/2023/index.html"
-    ]
+    "items": []
   },
   {
-    "listing": "/editions/2023/index.html",
+    "listing": "/editions/2022/index.html",
     "items": [
-      "/editions/2023/article-1/index.html",
-      "/editions/2023/article-2/index.html",
-      "/editions/2023/article-3/index.html"
+      "/editions/2022/article-1/index.html",
+      "/editions/2022/article-2/index.html",
+      "/editions/2022/article-3/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/editions/2023/article-1/index.html",
-      "/editions/2023/article-2/index.html"
+      "/editions/2022/article-1/index.html",
+      "/editions/2022/article-2/index.html"
     ]
   }
 ]
