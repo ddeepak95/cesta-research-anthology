@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "docs/index.html",
+    "href": "docs/index.html",
+    "title": "Developer Documentation",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "docs/index.html#for-admins",
+    "href": "docs/index.html#for-admins",
+    "title": "Developer Documentation",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -23,28 +37,28 @@
   {
     "objectID": "editions/2023/article-3/index.html",
     "href": "editions/2023/article-3/index.html",
-    "title": "Article Title 3",
+    "title": "Mystery of Egypt",
     "section": "",
     "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "editions/2023/article-3/index.html#heading-2",
     "href": "editions/2023/article-3/index.html#heading-2",
-    "title": "Article Title 3",
+    "title": "Mystery of Egypt",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "editions/2023/article-2/index.html",
     "href": "editions/2023/article-2/index.html",
-    "title": "Article Title 2",
+    "title": "Hate Crimes Viz",
     "section": "",
     "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "editions/2023/article-2/index.html#heading-2",
     "href": "editions/2023/article-2/index.html#heading-2",
-    "title": "Article Title 2",
+    "title": "Hate Crimes Viz",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
@@ -100,14 +114,14 @@
   {
     "objectID": "editions/2023/article-1/index.html",
     "href": "editions/2023/article-1/index.html",
-    "title": "I am a sub module article",
+    "title": "Coming Out",
     "section": "",
     "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "editions/2023/article-1/index.html#heading-2",
     "href": "editions/2023/article-1/index.html#heading-2",
-    "title": "I am a sub module article",
+    "title": "Coming Out",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
@@ -116,7 +130,7 @@
     "href": "editions/2023/index.html",
     "title": "CESTA Research Anthology 2023 Edition",
     "section": "",
-    "text": "Article Title 2\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 3\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nI am a sub module article\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
+    "text": "Coming Out\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nHate Crimes Viz\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nMystery of Egypt\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -138,5 +152,40 @@
     "title": "Home",
     "section": "2022 Edition",
     "text": "2022 Edition\n\n\n\n\n  \n\n\n\n\nArticle Title 1\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 2\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/setting-up-the-submodule/index.html",
+    "href": "docs/setting-up-the-submodule/index.html",
+    "title": "Setting up the sub-module",
+    "section": "",
+    "text": "In CESTA Anthology website, each edition of the Anthology is a separate git repository which is then added to the main repository as a sub-module. This document explains how to setup sub-module and then connect it to the main repository."
+  },
+  {
+    "objectID": "docs/setting-up-the-submodule/index.html#prerequisite",
+    "href": "docs/setting-up-the-submodule/index.html#prerequisite",
+    "title": "Setting up the sub-module",
+    "section": "Prerequisite",
+    "text": "Prerequisite\n\nQuarto\nGit\nVS Code (Preferable)"
+  },
+  {
+    "objectID": "docs/setting-up-the-submodule/index.html#setting-up-a-sub-module",
+    "href": "docs/setting-up-the-submodule/index.html#setting-up-a-sub-module",
+    "title": "Setting up the sub-module",
+    "section": "Setting up a sub-module",
+    "text": "Setting up a sub-module\n\nFork the template repository for the new edition of Anthology\nOpen the repository in your IDE (Preferably VSCode). The root directory of the repository should be the root directory of the project in your IDE.\nCreate a virtual environment with python3 -m venv .venv while being in the root directory of the repository\nActivate the virtual environment\n\nOn Windows: .venv\\Scripts\\Activate\nOn Mac/Linux: source .venv/bin/activate\n\nInstall the dependencies with pip install -r requirements.txt inside the virtual environment\nRun the preview with command quarto preview\nIf everything is set, you should be able to see the preview page."
+  },
+  {
+    "objectID": "docs/setting-up-the-submodule/index.html#seeing-the-preview-on-cloud",
+    "href": "docs/setting-up-the-submodule/index.html#seeing-the-preview-on-cloud",
+    "title": "Setting up the sub-module",
+    "section": "Seeing the preview on cloud",
+    "text": "Seeing the preview on cloud\nFollow the instructions in this page https://quarto.org/docs/publishing/github-pages.html#publish-command to publish the preview website on the Github Pages."
+  },
+  {
+    "objectID": "docs/setting-up-the-submodule/index.html#linking-the-submodule-to-the-parent-repository",
+    "href": "docs/setting-up-the-submodule/index.html#linking-the-submodule-to-the-parent-repository",
+    "title": "Setting up the sub-module",
+    "section": "Linking the submodule to the parent repository",
+    "text": "Linking the submodule to the parent repository\n\nOpen the root directory of the parent CESTA Anthology repository in terminal\nRun the command to add the submodule git submodule add https://github.com/another_username/cesta_submodule_repository.git src/editions/{year}. Replace year with the year of the edition.\n\nFor example, if repository link is https://github.com/ddeepak95/cesta_2024 and edition is 2024, then the code would be git submodule add https://github.com/ddeepak95/cesta_2024.git src/editions/2024\n\nInitialize and update the submodule git submodule update --init --recursive\nYou are all done now you can reference the files in the submodule in the parent repository!"
   }
 ]

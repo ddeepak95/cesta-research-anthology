@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Editions | CESTA Research Anthology</title>
+<title>Developer Documentation | CESTA Research Anthology</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-1 .list');
+    const listingTargetEl = window.document.querySelector('#listing-admin .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-1'] = new List('listing-listing-1', options);
+    window['quarto-listings']['listing-admin'] = new List('listing-admin', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -135,14 +135,20 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#for-admins" id="toc-for-admins" class="nav-link active" data-scroll-target="#for-admins">For Admins</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Editions</h1>
+<h1 class="title">Developer Documentation</h1>
 </div>
 
 
@@ -157,38 +163,42 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing-1">
+<section id="for-admins" class="level2">
+<h2 class="anchored" data-anchor-id="for-admins">For Admins</h2>
+<div id="listing-admin" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1696548890156" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1696548889744" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="../editions/2023/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../docs/setting-up-the-submodule/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
 <div class="body">
-<a href="../editions/2023/index.html">
+<a href="../docs/setting-up-the-submodule/index.html">
 <h3 class="no-anchor listing-title">
-CESTA Research Anthology 2023 Edition
+Setting up the sub-module
 </h3>
 <div class="listing-subtitle">
 
 </div>
 <div class="listing-description">
- <p class="card-img-top"><img src="2023/article-1/index_files/figure-html/fig-polar-output-1.png"  class="thumbnail-image card-img"/></p> 
+In CESTA Anthology website, each edition of the Anthology is…
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="../editions/2023/index.html"> </a>
+<a href="../docs/setting-up-the-submodule/index.html"> </a>
 </div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
