@@ -1,0 +1,31 @@
+---
+title: Setting up the sub-module
+---
+
+In CESTA Anthology website, each edition of the Anthology is a separate git repository which is then added to the main repository as a sub-module. This document explains how to setup sub-module and then connect it to the main repository.
+
+## Prerequisite
+- Quarto
+- Git
+- VS Code (Preferable)
+
+## Setting up a sub-module
+1. Fork the template repository for the new edition of Anthology
+2. Open the repository in your IDE (Preferably VSCode). The root directory of the repository should be the root directory of the project in your IDE.
+3. Create a virtual environment with `python3 -m venv .venv` while being in the root directory of the repository
+4. Activate the virtual environment
+    - On Windows: `.venv\Scripts\Activate`
+    - On Mac/Linux: `source .venv/bin/activate`
+5. Install the dependencies with `pip install -r requirements.txt` inside the virtual environment
+6. Run the preview with command `quarto preview`
+7. If everything is set, you should be able to see the preview page.
+
+## Seeing the preview on cloud
+Follow the instructions in this page https://quarto.org/docs/publishing/github-pages.html#publish-command to publish the preview website on the Github Pages. 
+
+## Linking the submodule to the parent repository
+1. Open the root directory of the parent CESTA Anthology repository in terminal
+2. Run the command to add the submodule `git submodule add https://github.com/another_username/cesta_submodule_repository.git src/editions/{year}`. Replace year with the year of the edition.
+    - For example, if repository link is  `https://github.com/ddeepak95/cesta_2024` and edition is 2024, then the code would be `git submodule add https://github.com/ddeepak95/cesta_2024.git src/editions/2024`
+3. Initialize and update the submodule `git submodule update --init --recursive`
+4. You are all done now you can reference the files in the submodule in the parent repository!
