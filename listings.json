@@ -1,8 +1,23 @@
 [
   {
-    "listing": "/editions/2023/all-articles.html",
+    "listing": "/editions/index.html",
     "items": [
-      "/editions/2023/articles/article-1/article1.html"
+      "/editions/2023/index.html"
+    ]
+  },
+  {
+    "listing": "/editions/2023/index.html",
+    "items": [
+      "/editions/2023/article-1/index.html",
+      "/editions/2023/article-2/index.html",
+      "/editions/2023/article-3/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/editions/2023/article-1/index.html",
+      "/editions/2023/article-2/index.html"
     ]
   }
 ]
