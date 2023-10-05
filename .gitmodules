@@ -1,0 +1,3 @@
+[submodule "src/editions/2023"]
+	path = src/editions/2023
+	url = https://github.com/ddeepak95/anthology_2023.git
