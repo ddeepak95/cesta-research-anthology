@@ -1,1 +1,1 @@
-Sitemap: https://github.com/ddeepak95/cesta-research-anthology/sitemap.xml
+Sitemap: https://ddeepak95.github.io/cesta-research-anthology/sitemap.xml

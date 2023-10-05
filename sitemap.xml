@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/ddeepak95/cesta-research-anthology/about.html</loc>
-    <lastmod>2023-10-05T22:41:52.366Z</lastmod>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/index.html</loc>
+    <lastmod>2023-10-05T22:49:30.054Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ddeepak95/cesta-research-anthology/editions/index.html</loc>
-    <lastmod>2023-10-05T22:41:51.586Z</lastmod>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/editions/2023/articles/index.html</loc>
+    <lastmod>2023-10-05T22:49:29.288Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ddeepak95/cesta-research-anthology/editions/2022/article-3/index.html</loc>
-    <lastmod>2023-10-05T22:41:50.774Z</lastmod>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/editions/2023/articles/article-2/index.html</loc>
+    <lastmod>2023-10-05T22:49:27.639Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ddeepak95/cesta-research-anthology/editions/2022/article-2/index.html</loc>
-    <lastmod>2023-10-05T22:41:42.478Z</lastmod>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/editions/2022/index.html</loc>
+    <lastmod>2023-10-05T22:49:25.267Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ddeepak95/cesta-research-anthology/editions/2022/article-1/index.html</loc>
-    <lastmod>2023-10-05T22:41:46.782Z</lastmod>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/editions/2022/article-2/index.html</loc>
+    <lastmod>2023-10-05T22:49:23.590Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ddeepak95/cesta-research-anthology/editions/2022/index.html</loc>
-    <lastmod>2023-10-05T22:41:51.258Z</lastmod>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/about.html</loc>
+    <lastmod>2023-10-05T22:49:19.916Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ddeepak95/cesta-research-anthology/index.html</loc>
-    <lastmod>2023-10-05T22:41:52.074Z</lastmod>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/editions/2022/article-1/index.html</loc>
+    <lastmod>2023-10-05T22:49:22.406Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/editions/2022/article-3/index.html</loc>
+    <lastmod>2023-10-05T22:49:24.824Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/editions/2023/articles/article-1/index.html</loc>
+    <lastmod>2023-10-05T22:49:26.441Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/editions/2023/articles/article-3/index.html</loc>
+    <lastmod>2023-10-05T22:49:28.838Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddeepak95.github.io/cesta-research-anthology/editions/index.html</loc>
+    <lastmod>2023-10-05T22:49:29.598Z</lastmod>
   </url>
 </urlset>
