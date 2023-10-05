@@ -9,8 +9,8 @@ listing:
       type: "default" 
     - id: 2023-edition
       contents: 
-          - "editions/2023/articles/article-1"
-          - "editions/2023/articles/article-2"
+          - "editions/2023/article-1"
+          - "editions/2023/article-2"
       type: "default" 
 ---
 
