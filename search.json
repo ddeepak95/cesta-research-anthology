@@ -18,60 +18,32 @@
     "href": "editions/index.html",
     "title": "Editions",
     "section": "",
-    "text": "Research Anthology 2023 Development Repository\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "CESTA Research Anthology 2023 Edition\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "editions/2023/articles/index.html",
-    "href": "editions/2023/articles/index.html",
-    "title": "CESTA Research Anthology 2023 Edition",
-    "section": "",
-    "text": "Article Title 2\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 3\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nI am a sub module article\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "editions/2023/articles/article-1/index.html",
-    "href": "editions/2023/articles/article-1/index.html",
-    "title": "I am a sub module article",
+    "objectID": "editions/2023/article-3/index.html",
+    "href": "editions/2023/article-3/index.html",
+    "title": "Article Title 3",
     "section": "",
     "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "editions/2023/articles/article-1/index.html#heading-2",
-    "href": "editions/2023/articles/article-1/index.html#heading-2",
-    "title": "I am a sub module article",
+    "objectID": "editions/2023/article-3/index.html#heading-2",
+    "href": "editions/2023/article-3/index.html#heading-2",
+    "title": "Article Title 3",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "editions/2022/index.html",
-    "href": "editions/2022/index.html",
-    "title": "CESTA Research Anthology 2022 Edition",
-    "section": "",
-    "text": "Article Title 1\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 2\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 3\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "editions/2022/article-1/index.html",
-    "href": "editions/2022/article-1/index.html",
-    "title": "Article Title 1",
-    "section": "",
-    "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "editions/2022/article-1/index.html#heading-2",
-    "href": "editions/2022/article-1/index.html#heading-2",
-    "title": "Article Title 1",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "editions/2022/article-2/index.html",
-    "href": "editions/2022/article-2/index.html",
+    "objectID": "editions/2023/article-2/index.html",
+    "href": "editions/2023/article-2/index.html",
     "title": "Article Title 2",
     "section": "",
     "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "editions/2022/article-2/index.html#heading-2",
-    "href": "editions/2022/article-2/index.html#heading-2",
+    "objectID": "editions/2023/article-2/index.html#heading-2",
+    "href": "editions/2023/article-2/index.html#heading-2",
     "title": "Article Title 2",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
@@ -91,39 +63,60 @@
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "editions/2023/articles/article-2/index.html",
-    "href": "editions/2023/articles/article-2/index.html",
+    "objectID": "editions/2022/article-2/index.html",
+    "href": "editions/2022/article-2/index.html",
     "title": "Article Title 2",
     "section": "",
     "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "editions/2023/articles/article-2/index.html#heading-2",
-    "href": "editions/2023/articles/article-2/index.html#heading-2",
+    "objectID": "editions/2022/article-2/index.html#heading-2",
+    "href": "editions/2022/article-2/index.html#heading-2",
     "title": "Article Title 2",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "editions/2023/articles/article-3/index.html",
-    "href": "editions/2023/articles/article-3/index.html",
-    "title": "Article Title 3",
+    "objectID": "editions/2022/article-1/index.html",
+    "href": "editions/2022/article-1/index.html",
+    "title": "Article Title 1",
     "section": "",
     "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "editions/2023/articles/article-3/index.html#heading-2",
-    "href": "editions/2023/articles/article-3/index.html#heading-2",
-    "title": "Article Title 3",
+    "objectID": "editions/2022/article-1/index.html#heading-2",
+    "href": "editions/2022/article-1/index.html#heading-2",
+    "title": "Article Title 1",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "editions/2022/index.html",
+    "href": "editions/2022/index.html",
+    "title": "CESTA Research Anthology 2022 Edition",
+    "section": "",
+    "text": "Article Title 1\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 2\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 3\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "editions/2023/article-1/index.html",
+    "href": "editions/2023/article-1/index.html",
+    "title": "I am a sub module article",
+    "section": "",
+    "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "editions/2023/article-1/index.html#heading-2",
+    "href": "editions/2023/article-1/index.html#heading-2",
+    "title": "I am a sub module article",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "editions/2023/index.html",
     "href": "editions/2023/index.html",
-    "title": "Research Anthology 2023 Development Repository",
+    "title": "CESTA Research Anthology 2023 Edition",
     "section": "",
-    "text": "View all the articles"
+    "text": "Article Title 2\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 3\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nI am a sub module article\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
