@@ -29,3 +29,4 @@ format:
       - "utils/style/style.scss"
     toc: true
     pagetitle: "{{< meta title >}} | CESTA Research Anthology"
+    template: "utils/style/article.template"
