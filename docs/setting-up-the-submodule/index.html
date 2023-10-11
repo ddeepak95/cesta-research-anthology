@@ -1,28 +1,5 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>Setting up the sub-module | CESTA Research Anthology</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
-
-
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
@@ -39,8 +16,24 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+           <title>Setting up the sub-module | CESTA Research Anthology</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+      <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -59,15 +52,12 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script>
-<script src="../../utils/scripts/insert-header.js"></script>
-
-
-</head>
-
-<body class="nav-fixed">
-
-<div id="quarto-search-results"></div>
+}</script>  <script src="../../utils/scripts/insert-header.js"></script>      <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="nav-fixed">
+     <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
@@ -103,37 +93,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#prerequisite" id="toc-prerequisite" class="nav-link active" data-scroll-target="#prerequisite">Prerequisite</a></li>
-  <li><a href="#setting-up-a-sub-module" id="toc-setting-up-a-sub-module" class="nav-link" data-scroll-target="#setting-up-a-sub-module">Setting up a sub-module</a></li>
-  <li><a href="#seeing-the-preview-on-cloud" id="toc-seeing-the-preview-on-cloud" class="nav-link" data-scroll-target="#seeing-the-preview-on-cloud">Seeing the preview on cloud</a></li>
-  <li><a href="#linking-the-submodule-to-the-parent-repository" id="toc-linking-the-submodule-to-the-parent-repository" class="nav-link" data-scroll-target="#linking-the-submodule-to-the-parent-repository">Linking the submodule to the parent repository</a></li>
-  </ul>
-</nav>
+            <h2 id="toc-title">On this page</h2>
+       <ul>
+<li><a href="#prerequisite" id="toc-prerequisite" class="nav-link active" data-scroll-target="#prerequisite">Prerequisite</a></li>
+<li><a href="#setting-up-a-sub-module" id="toc-setting-up-a-sub-module" class="nav-link" data-scroll-target="#setting-up-a-sub-module">Setting up a sub-module</a></li>
+<li><a href="#seeing-the-preview-on-cloud" id="toc-seeing-the-preview-on-cloud" class="nav-link" data-scroll-target="#seeing-the-preview-on-cloud">Seeing the preview on cloud</a></li>
+<li><a href="#linking-the-submodule-to-the-parent-repository" id="toc-linking-the-submodule-to-the-parent-repository" class="nav-link" data-scroll-target="#linking-the-submodule-to-the-parent-repository">Linking the submodule to the parent repository</a></li>
+</ul>
+    </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Setting up the sub-module</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>In CESTA Anthology website, each edition of the Anthology is a separate git repository which is then added to the main repository as a sub-module. This document explains how to setup sub-module and then connect it to the main repository.</p>
+<main class="content" id="quarto-document-content">      <header id="title-block-header">
+      <h1 class="title display-7">Setting up the sub-module</h1>
+                   </header>
+         
+     <p>In CESTA Anthology website, each edition of the Anthology is a separate git repository which is then added to the main repository as a sub-module. This document explains how to setup sub-module and then connect it to the main repository.</p>
 <section id="prerequisite" class="level2">
 <h2 class="anchored" data-anchor-id="prerequisite">Prerequisite</h2>
 <ul>
@@ -175,10 +149,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 
 
-</section>
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section>  </main> <!-- /main -->  <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -410,9 +381,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-</div> <!-- /content -->
-
-
+</script>  </div> <!-- /content --> 
+  
 
 </body></html>

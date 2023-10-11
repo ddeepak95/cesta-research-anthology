@@ -95,14 +95,14 @@
     "href": "editions/2022/article-1/index.html",
     "title": "Article Title 1",
     "section": "",
-    "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1. dsafdsafdsaf\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "editions/2022/article-1/index.html#heading-2",
     "href": "editions/2022/article-1/index.html#heading-2",
     "title": "Article Title 1",
     "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1. dsafdsafdsaf\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "editions/2022/index.html",
@@ -112,18 +112,18 @@
     "text": "Article Title 1\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 2\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 3\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "editions/2023/article-1/index.html",
-    "href": "editions/2023/article-1/index.html",
+    "objectID": "editions/2023/article-1/index.html#heading-1",
+    "href": "editions/2023/article-1/index.html#heading-1",
     "title": "Coming Out",
-    "section": "",
-    "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "section": "Heading 1",
+    "text": "Heading 1\n\ndsfdsgdsgfdsg Hello"
   },
   {
     "objectID": "editions/2023/article-1/index.html#heading-2",
     "href": "editions/2023/article-1/index.html#heading-2",
     "title": "Coming Out",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "section": "Heading 2",
+    "text": "Heading 2\nFor a demonstration of a line plot on a polar axis, see ?@fig-polar."
   },
   {
     "objectID": "editions/2023/index.html",
