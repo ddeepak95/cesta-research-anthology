@@ -40,20 +40,35 @@
   <body>
     $for(include-before)$ $include-before$ $endfor$ $if(title)$
     <header id="title-block-header">
-      <h1 class="title">$title$</h1>
-      $if(subtitle)$
-      <p class="subtitle">$subtitle$</p>
-      $endif$ $for(author)$
-      <p class="author">$author$</p>
-      $endfor$
+      <h1 class="title article-title">$title$</h1>
+      $if(lead)$
+      <div class="header-box">
+      $if(lead)$
+      <div class="lead-container header-block-container">
+      <h3 class="lead-title header-title">$if(multipleLeads)$Project Leads$else$Project Lead$endif$</h3>
+      <div class="lead-units-container header-flex-units-container">
       $for(lead)$
-      <p class="lead">$lead.name$</p>
-      $endfor$ $if(date)$
-      <p class="date">$date$</p>
-      $endif$ $if(abstract)$
-      <div class="abstract">
-        <div class="abstract-title">$abstract-title$</div>
-        $abstract$
+      <div class="lead-item header-flex-item ">
+      <p class="lead-name header-name">$lead.name$</p>
+      <p class="lead-designation header-designation">$lead.designation$</p>
+      </div>
+      $endfor$
+      </div>
+      </div>
+      $endif$
+      $if(intern)$
+      <div class="intern-container header-block-container">
+      <h3 class="intern-title header-title">$if(multipleInterns)$Project Interns$else$Project Intern$endif$</h3>
+      <div class="intern-units-container header-flex-units-container">
+      $for(intern)$
+      <div class="intern-item header-flex-item ">
+      <p class="intern-name header-name">$intern.name$</p>
+      <p class="intern-quarter header-designation">$intern.quarter$</p>
+      </div>
+      $endfor$
+      </div>
+      </div>
+      $endif$
       </div>
       $endif$
     </header>
@@ -64,5 +79,6 @@
       $endif$ $table-of-contents$
     </nav>
     $endif$ $body$ $for(include-after)$ $include-after$ $endfor$
+    <footer class="footer"><div>© Center for Spatial and Textual Analysis, Stanford University</div></footer>
   </body>
 </html>

@@ -1,0 +1,31 @@
+```{=html} <% for (const item of items) { %> <% console.log("Printingitem",item)
+%>
+<a class="custom-listing-item" href="<%- item.path %>">
+  <div class="item-container">
+    <div class="text-container">
+
+      <h5 class="listing-title"><%- item.title %></h5>
+
+      <% if(item.lead || item.intern) { %>
+      <p class="listing-authors">
+        <% if(item.lead) { %> <% for(let i = 0; i < item.lead.length; i++) { %>
+        <%= item.lead[i].name + (i !== item.lead.length - 1 || item.intern ? ', '
+      : '') %> <% } %> <% } %> <% if(item.intern) { %> <% for(let i = 0; i <
+      item.intern.length; i++) { %> <%= item.intern[i].name + (i !==
+      item.intern.length - 1 ? ', ' : '') %> <% } %> <% } %>
+      </p>
+      <% } %>
+
+      <p class="listing-description"><%= item.description %></p>
+    </div>
+    <div class="listing-img-container">
+
+      <% if(item.image) { %>
+      <img src="<%- item.image %>" alt="<%- item.title %>" />
+      <% } %>
+
+    </div>
+  </div>
+</a>
+
+<% } %> ```

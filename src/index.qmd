@@ -2,23 +2,17 @@
 title: Home
 css: "utils/style/home-style.css"
 listing: 
-    - id: 2022-edition
-      contents: 
-          - "editions/2022/article-1"
-          - "editions/2022/article-2"
-      type: "default" 
     - id: 2023-edition
       contents: 
-          - "editions/2023/article-1"
-          - "editions/2023/article-2"
-      type: "default" 
+          - "editions/2023/know-systemic-racism"
+          - "editions/2023/grand-tour-project"
+      type: "default"  
+      sort: false
+      template: "utils/style/listing-style.ejs"
 ---
-
-## 2023 Edition
+ 
+## 2023 Edition 
 :::{#2023-edition}
 :::
 
-## 2022 Edition
-:::{#2022-edition}
-:::
 
