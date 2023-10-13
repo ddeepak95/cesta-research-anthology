@@ -35,123 +35,74 @@
     "text": "CESTA Research Anthology 2023 Edition\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "editions/2023/article-3/index.html",
-    "href": "editions/2023/article-3/index.html",
-    "title": "Mystery of Egypt",
+    "objectID": "editions/2023/know-systemic-racism/index.html",
+    "href": "editions/2023/know-systemic-racism/index.html",
+    "title": "Know Systemic Racism",
     "section": "",
-    "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "Know Systemic Racism, the creation of Felicia Smith, Stanford’s inaugural Racial Justice and Social Equity Librarian, aims to “humanize the harm” against Black people in California by focusing on interconnections of discriminatory systems that have been shaped by racist policies and practices of individuals and institutions across centuries. This summer, Felicia Smith is collaborating with Nicole Coleman, Digital Research Architect for the Stanford University Libraries and Research Director for Humanities+Design at CESTA. The summer 2023 project for Know Systemic Racism Data Lab is “Know More Names,” a data curation and public information discovery environment that uses names of people, places, events, and objects as an entry point to reveal connections between harmful and racist policies and practices in California. The goal of this first iteration of “Know More Names” is to enable citizens, activists, journalists, and lawmakers to discover, use, and contribute to factual data that connects legislation, law enforcement policy, the use of military equipment in policing, and deaths that occur through police interaction in California. The focus on policing and race is not the end goal of the project, but a starting point that reflects the origins of the Stanford Libraries’ Know Systemic Racism project in response to the death of George Floyd and the attention to Floyd’s death brought to the connections between the history of policing and race in this country. The students have worked with library catalogers, archivists and data scientists, community activists, and the Stanford Center for Racial Justice to bring this project together."
   },
   {
-    "objectID": "editions/2023/article-3/index.html#heading-2",
-    "href": "editions/2023/article-3/index.html#heading-2",
-    "title": "Mystery of Egypt",
+    "objectID": "editions/2023/know-systemic-racism/index.html#project-description",
+    "href": "editions/2023/know-systemic-racism/index.html#project-description",
+    "title": "Know Systemic Racism",
     "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "Know Systemic Racism, the creation of Felicia Smith, Stanford’s inaugural Racial Justice and Social Equity Librarian, aims to “humanize the harm” against Black people in California by focusing on interconnections of discriminatory systems that have been shaped by racist policies and practices of individuals and institutions across centuries. This summer, Felicia Smith is collaborating with Nicole Coleman, Digital Research Architect for the Stanford University Libraries and Research Director for Humanities+Design at CESTA. The summer 2023 project for Know Systemic Racism Data Lab is “Know More Names,” a data curation and public information discovery environment that uses names of people, places, events, and objects as an entry point to reveal connections between harmful and racist policies and practices in California. The goal of this first iteration of “Know More Names” is to enable citizens, activists, journalists, and lawmakers to discover, use, and contribute to factual data that connects legislation, law enforcement policy, the use of military equipment in policing, and deaths that occur through police interaction in California. The focus on policing and race is not the end goal of the project, but a starting point that reflects the origins of the Stanford Libraries’ Know Systemic Racism project in response to the death of George Floyd and the attention to Floyd’s death brought to the connections between the history of policing and race in this country. The students have worked with library catalogers, archivists and data scientists, community activists, and the Stanford Center for Racial Justice to bring this project together."
   },
   {
-    "objectID": "editions/2023/article-2/index.html",
-    "href": "editions/2023/article-2/index.html",
-    "title": "Hate Crimes Viz",
+    "objectID": "editions/2023/know-systemic-racism/index.html#visualizing-data-about-the-militarization-of-police-by-tracy-wei",
+    "href": "editions/2023/know-systemic-racism/index.html#visualizing-data-about-the-militarization-of-police-by-tracy-wei",
+    "title": "Know Systemic Racism",
+    "section": "Visualizing Data About the Militarization of Police by Tracy Wei",
+    "text": "Visualizing Data About the Militarization of Police by Tracy Wei\nAs a research intern for Know Systemic Racism, I built a wireframe and coded a web-based application that makes the military equipment inventory of California law enforcement agencies visible to legislators and citizens. My work directly contributes to a project with the Electronic Frontier Foundation and American Friends Service Committee that demonstrates the militarization of police using records of military equipment. My initial task involved designing a wireframe in Figma for the web application, which would be used as a foundation for the rest of the project. This wireframe included a map view page for users to filter and select specific law enforcement agencies to learn more details about their respective inventories. It also included a gallery view of military equipment that filters inventory by where the user lives so that users can learn more about the military equipment in their local law enforcement agencies and how much money is being put towards these equipment.\nIn order to gather data on the military equipment of law enforcement agencies, I examined policy manuals to record the equipment owned by law enforcement agencies and the associated costs. The web application was developed using Streamlit, which supports data-driven web applications coded in the programming language Python. I used the equipment list to create a table view that showcases all the equipment with details including manufacturer, cost and images. To help users look for specific categories of military equipment and certain companies, I added dropdown menus that allow the user to filter the inventory based on certain criteria. Using the Plotly library, I also built a map view of California with its counties colored by population, and its law enforcement agencies as points on the map, with the goal of displaying the data and military inventory of these law enforcement agencies on an individual level. The project’s next steps are to create data visualizations for the quantity and cost of military equipment for both individual law enforcement agencies and the aggregate law enforcement system."
+  },
+  {
+    "objectID": "editions/2023/know-systemic-racism/index.html#from-data-exploration-to-presentation-by-anabelle-colmenares",
+    "href": "editions/2023/know-systemic-racism/index.html#from-data-exploration-to-presentation-by-anabelle-colmenares",
+    "title": "Know Systemic Racism",
+    "section": "From Data Exploration to Presentation by Anabelle Colmenares",
+    "text": "From Data Exploration to Presentation by Anabelle Colmenares\nThis summer, the KSR focused on four datasets: fatal encounters with the police in the United States, data about law enforcement agencies (LEAs) in California, policy manuals of these LEAs, and military equipment policies of these LEAs. To explore these datasets, I first created a platform for KSR to share their data projects. Second, I created pipelines for data extraction and visualization. Finally, I created a website that tied all of the datasets together.\nWe started the data exploration process by creating a data website for all of KSR’s data-related projects in order to have a platform where we could quickly display and share coding projects. I did this by integrating GitHub Pages, Quarto, and GitHub Action, giving us the ability to easily update the website and render code.\nAfter this, my next set of tasks involved establishing pipelines for data visualization, analysis, and extraction. I experimented with different visualization libraries, such as Plotly, Observable Plot, and others, to see which would be better suited for our needs. I also experimented with pulling data from Google Sheets and Wikidata. Pulling data directly from Google Sheets is essential for us because much of the data we use is created by activist groups, and such groups often store data in Google Sheets. Likewise, Wikidata is a community-constructed data source, which we entered data into and want to pull from in order to create applications and visualizations.\nFinally, we decided to build a web application. This web application fulfilled two main objectives: to integrate the 4 main aforementioned datasets and make this information accessible to the common public. We decided this application would have four main information sections corresponding to the four datasets. Within each section, there will be an information card for each entity (for instance, the “Law Enforcement Agencies” section will include information cards for each LEA within California). If there is data within an information card that is tied to another section, clicking on this data will take you to their information pages. For instance, clicking on a particular military equipment item within the information card of a LEA will take you to the page within our website of that military equipment. With all of this, we aim to empower people with a more concentrated and accessible version of this information."
+  },
+  {
+    "objectID": "editions/2023/know-systemic-racism/index.html#data-visualizations",
+    "href": "editions/2023/know-systemic-racism/index.html#data-visualizations",
+    "title": "Know Systemic Racism",
+    "section": "Data Visualizations",
+    "text": "Data Visualizations\nBelow are some of the notable table and visualizations that we generated through the internship. These tables and visualizations are generated using the Fatal Encounters Dataset from fatalencounters.org. As seen in the bar charts, this dataset ranges from 2000-2021.\n\nMapping Fatal Encounters\n\nEntire U.S.\n\n\n\n\n\n\n\n\n\n                                                \n\n\n\n\nCalifornia only\n\n\n\n                                                \n\n\n\n\n\nPreliminary FE Data Visualizations\n\nEntire U.S.\nThe plot below visualizes the number of fatal encounters per year for all of the United States.\n\n\nCode\nabbreviated_states_obj = ({\n  AL: 'Alabama',\n  AK: 'Alaska' ,\n  AS: 'American Samoa',\n  AZ: 'Arizona',\n  AR: 'Arkansas',\n  CA: 'California',\n  CO: 'Colorado',\n  CT: 'Connecticut',\n  DE: 'Delaware',\n  DC: 'District of Columbia',\n  FL: 'Florida',\n  GA: 'Georgia',\n  GU: 'Guam',\n  HI: 'Hawaii',\n  ID: 'Idaho',\n  IL: 'Illinois',\n  IN: 'Indiana',\n  IA: 'Iowa',\n  KS: 'Kansas',\n  KY: 'Kentucky',\n  LA: 'Louisiana',\n  ME: 'Maine',\n  MD: 'Maryland',\n  MA: 'Massachusetts',\n  MI: 'Michigan',\n  MN: 'Minnesota',\n  MS: 'Mississippi',\n  MO: 'Missouri',\n  MT: 'Montana',\n  NE: 'Nebraska',\n  NV: 'Nevada',\n  NH: 'New Hampshire',\n  NJ: 'New Jersey',\n  NM: 'New Mexico',\n  NY: 'New York',\n  NC: 'North Carolina',\n  ND: 'North Dakota',\n  OH: 'Ohio',\n  OK: 'Oklahoma',\n  OR: 'Oregon',\n  PA: 'Pennsylvania',\n  PR: 'Puerto Rico',\n  RI: 'Rhode Island',\n  SC: 'South Carolina',\n  SD: 'South Dakota',\n  TN: 'Tennessee',\n  TX: 'Texas',\n  UT: 'Utah',\n  VT: 'Vermont',\n  VI: 'Virgin Islands',\n  VA: 'Virginia',\n  WA: 'Washington',\n  WV: 'West Virginia',\n  WI: 'Wisconsin',\n  WY: 'Wyoming',\n})\ntidy_w_race = transpose(fe_data).map(d =&gt; ({date: new Date(d[' Date of injury resulting in death (month/day/year)']).getFullYear(), count: 1, raceImputed: d['Race with imputations'], race: d.Race, state: abbreviated_states_obj[d.State]}))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nviewof race_imputed = Inputs.radio(new Map([[\"Race with imputations\", 'raceImputed'], [\"Race with no imputations\", 'race']]), {value: 'raceImputed', label: \"Race imputed?\"})\n\n\n\n\n\n\n\n\n\nCode\nPlot.plot({\n  width: 928,\n  height: 500,\n  x: {tickFormat: \"\"},\n  y: {tickSpacing: 50},\n  color: {legend: true},\n  marks: [\n  Plot.barY(tidy_w_race, {x: 'date', y: 'count', fill: race_imputed, sort: race_imputed}),\n  ]\n})\n\n\n\n\n\n\n\n\n\nFor more visualizations, visit https://know-systemic-racism.github.io/fe-search-viz.html"
+  },
+  {
+    "objectID": "editions/2023/grand-tour-project/index.html",
+    "href": "editions/2023/grand-tour-project/index.html",
+    "title": "Grand Tour Project",
     "section": "",
-    "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "In the 18th century, thousands of Northern Europeans traveled to Italy for a journey of cultural and symbolic capital that they called the Grand Tour. These travels were a formative institution of modernity and contributed to a massive reimagining of politics and the arts, ideas about leisure, the market for culture, and the practices of professionalism. Since 2008, the Grand Tour Project (grandtour.stanford.edu) has generated digital tools, analyses, and visualizations to bring us closer to the diverse travelers who collectively represent 18th-century travel to Italy. We have been digitizing and enhancing John Ingamells’ Dictionary of British and Irish Travelers to Italy 1701-1800 to create a searchable database of more than six thousand entries. This past year the project’s focus has been on preparing this interactive database and an accompanying digital volume for publication with the title A World Made by Travel: The Digital Grand Tour for the Stanford University Press Digital Series. CESTA intern alumni Ashwin Ramaswami and Ryan Tan returned to the project to work on this exciting phase as we refined both development and design to satisfy the press’s guidelines, anonymous reviewers’ comments, digital accessibility, and best practices for digital sustainability and preservation. Raagavi Ragothaman, a CS coterm master’s student, also contributed in crucial ways, focusing on interactivity features and data visualizations."
   },
   {
-    "objectID": "editions/2023/article-2/index.html#heading-2",
-    "href": "editions/2023/article-2/index.html#heading-2",
-    "title": "Hate Crimes Viz",
+    "objectID": "editions/2023/grand-tour-project/index.html#project-description",
+    "href": "editions/2023/grand-tour-project/index.html#project-description",
+    "title": "Grand Tour Project",
     "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "editions/2022/article-3/index.html",
-    "href": "editions/2022/article-3/index.html",
-    "title": "Article Title 3",
-    "section": "",
-    "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "editions/2022/article-3/index.html#heading-2",
-    "href": "editions/2022/article-3/index.html#heading-2",
-    "title": "Article Title 3",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "editions/2022/article-2/index.html",
-    "href": "editions/2022/article-2/index.html",
-    "title": "Article Title 2",
-    "section": "",
-    "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "editions/2022/article-2/index.html#heading-2",
-    "href": "editions/2022/article-2/index.html#heading-2",
-    "title": "Article Title 2",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "editions/2022/article-1/index.html",
-    "href": "editions/2022/article-1/index.html",
-    "title": "Article Title 1",
-    "section": "",
-    "text": "Hello\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1. dsafdsafdsaf\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "editions/2022/article-1/index.html#heading-2",
-    "href": "editions/2022/article-1/index.html#heading-2",
-    "title": "Article Title 1",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1. dsafdsafdsaf\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "editions/2022/index.html",
-    "href": "editions/2022/index.html",
-    "title": "CESTA Research Anthology 2022 Edition",
-    "section": "",
-    "text": "Article Title 1\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 2\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 3\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "editions/2023/article-1/index.html#heading-1",
-    "href": "editions/2023/article-1/index.html#heading-1",
-    "title": "Coming Out",
-    "section": "Heading 1",
-    "text": "Heading 1\n\ndsfdsgdsgfdsg Hello"
-  },
-  {
-    "objectID": "editions/2023/article-1/index.html#heading-2",
-    "href": "editions/2023/article-1/index.html#heading-2",
-    "title": "Coming Out",
-    "section": "Heading 2",
-    "text": "Heading 2\nFor a demonstration of a line plot on a polar axis, see ?@fig-polar."
+    "text": "In the 18th century, thousands of Northern Europeans traveled to Italy for a journey of cultural and symbolic capital that they called the Grand Tour. These travels were a formative institution of modernity and contributed to a massive reimagining of politics and the arts, ideas about leisure, the market for culture, and the practices of professionalism. Since 2008, the Grand Tour Project (grandtour.stanford.edu) has generated digital tools, analyses, and visualizations to bring us closer to the diverse travelers who collectively represent 18th-century travel to Italy. We have been digitizing and enhancing John Ingamells’ Dictionary of British and Irish Travelers to Italy 1701-1800 to create a searchable database of more than six thousand entries. This past year the project’s focus has been on preparing this interactive database and an accompanying digital volume for publication with the title A World Made by Travel: The Digital Grand Tour for the Stanford University Press Digital Series. CESTA intern alumni Ashwin Ramaswami and Ryan Tan returned to the project to work on this exciting phase as we refined both development and design to satisfy the press’s guidelines, anonymous reviewers’ comments, digital accessibility, and best practices for digital sustainability and preservation. Raagavi Ragothaman, a CS coterm master’s student, also contributed in crucial ways, focusing on interactivity features and data visualizations."
   },
   {
     "objectID": "editions/2023/index.html",
     "href": "editions/2023/index.html",
     "title": "CESTA Research Anthology 2023 Edition",
     "section": "",
-    "text": "Coming Out\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nHate Crimes Viz\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nMystery of Egypt\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
+    "text": "Grand Tour Project\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nKnow Systemic Racism\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Abstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
+    "text": "Nicole Coleman,  \n        Felicia Smith,      Tracy Wei,   Anabelle Colmenares  \n      \n      \n    \n    \n      \n    \n  \n\n\n  \n    \n      \n      \n        Giovanna Ceserani,      Raagavi Ragothaman  \n      \n      \n    \n    \n      \n    \n  \n\n\nNo matching items"
   },
   {
     "objectID": "index.html#edition",
     "href": "index.html#edition",
     "title": "Home",
     "section": "",
-    "text": "Abstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#edition-1",
-    "href": "index.html#edition-1",
-    "title": "Home",
-    "section": "2022 Edition",
-    "text": "2022 Edition\n\n\n\n\n  \n\n\n\n\nArticle Title 1\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\n  \n\n\n\n\nArticle Title 2\n\n\n\n\n\nAbstract of the work\n\n\n\n\n\n\nFeb 29, 2008\n\n\nAuthor Name\n\n\n\n\n\n\nNo matching items"
+    "text": "Nicole Coleman,  \n        Felicia Smith,      Tracy Wei,   Anabelle Colmenares  \n      \n      \n    \n    \n      \n    \n  \n\n\n  \n    \n      \n      \n        Giovanna Ceserani,      Raagavi Ragothaman  \n      \n      \n    \n    \n      \n    \n  \n\n\nNo matching items"
   },
   {
     "objectID": "docs/setting-up-the-submodule/index.html",

@@ -12,28 +12,17 @@
     ]
   },
   {
-    "listing": "/editions/2022/index.html",
-    "items": [
-      "/editions/2022/article-1/index.html",
-      "/editions/2022/article-2/index.html",
-      "/editions/2022/article-3/index.html"
-    ]
-  },
-  {
     "listing": "/editions/2023/index.html",
     "items": [
-      "/editions/2023/article-1/index.html",
-      "/editions/2023/article-2/index.html",
-      "/editions/2023/article-3/index.html"
+      "/editions/2023/grand-tour-project/index.html",
+      "/editions/2023/know-systemic-racism/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/editions/2022/article-1/index.html",
-      "/editions/2022/article-2/index.html",
-      "/editions/2023/article-1/index.html",
-      "/editions/2023/article-2/index.html"
+      "/editions/2023/know-systemic-racism/index.html",
+      "/editions/2023/grand-tour-project/index.html"
     ]
   }
 ]

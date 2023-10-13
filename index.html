@@ -58,34 +58,6 @@
 }</script>  <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-2022-edition .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-2022-edition'] = new List('listing-2022-edition', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-2023-edition .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -93,9 +65,9 @@
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-execute','listing-website','listing-format','listing-language','listing-title','listing-jupyter','listing-image','listing-multipleLeads','listing-lead','listing-multipleInterns','listing-intern','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-language","listing-title","listing-jupyter","listing-image","listing-multipleLeads","listing-lead","listing-multipleInterns","listing-intern","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -156,142 +128,46 @@
             <h2 id="toc-title">On this page</h2>
        <ul>
 <li><a href="#edition" id="toc-edition" class="nav-link active" data-scroll-target="#edition">2023 Edition</a></li>
-<li><a href="#edition-1" id="toc-edition-1" class="nav-link" data-scroll-target="#edition-1">2022 Edition</a></li>
 </ul>
     </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">      <header id="title-block-header">
-      <h1 class="title display-7">Home</h1>
-                   </header>
+      <h1 class="title article-title display-7">Home</h1>
+          </header>
          
      <section id="edition" class="level2">
 <h2 class="anchored" data-anchor-id="edition">2023 Edition</h2>
-<div id="listing-2023-edition" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1204243200000" data-listing-file-modified-sort="1697065647203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./editions/2023/article-1/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./editions/2023/article-1/index.html">
-<h3 class="no-anchor listing-title">
-Coming Out
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Abstract of the work</p>
-</div>
+<div id="listing-2023-edition" class="quarto-listing quarto-listing-container-custom">
+<a class="custom-listing-item" href="./editions/2023/know-systemic-racism/index.html">
+  <div class="item-container">
+    <div class="text-container">
+      <h5 class="listing-title anchored">Know Systemic Racism</h5>
+      <p class="listing-authors">
+        Nicole Coleman,  
+        Felicia Smith,      Tracy Wei,   Anabelle Colmenares  
+      </p>
+      <p class="listing-description">Know Systemic Racism, the creation of Felicia Smith, Stanford’s inaugural Racial Justice and Social Equity Librarian, aims to “humanize the harm” against Black people in…</p>
+    </div>
+    <div class="listing-img-container">
+      <img src="./editions/2023/know-systemic-racism/data/ca_map.png" alt="Know Systemic Racism">
+    </div>
+  </div>
 </a>
-</div>
-<div class="metadata">
-<a href="./editions/2023/article-1/index.html">
-<div class="listing-date">
-Feb 29, 2008
-</div>
-<div class="listing-author">
-Author Name
-</div>
+<a class="custom-listing-item" href="./editions/2023/grand-tour-project/index.html">
+  <div class="item-container">
+    <div class="text-container">
+      <h5 class="listing-title anchored">Grand Tour Project</h5>
+      <p class="listing-authors">
+        Giovanna Ceserani,      Raagavi Ragothaman  
+      </p>
+      <p class="listing-description">In the 18th century, thousands of Northern Europeans traveled to Italy for a journey of cultural and symbolic capital that they called the Grand Tour. These travels were a…</p>
+    </div>
+    <div class="listing-img-container">
+      <img src="./editions/2023/grand-tour-project/data/grand-tour.png" alt="Grand Tour Project">
+    </div>
+  </div>
 </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1204243200000" data-listing-file-modified-sort="1697065647203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./editions/2023/article-2/index.html"> <p class="card-img-top"><img src="editions/2023/article-2/index_files/figure-html/fig-polar-output-1.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./editions/2023/article-2/index.html">
-<h3 class="no-anchor listing-title">
-Hate Crimes Viz
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Abstract of the work</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./editions/2023/article-2/index.html">
-<div class="listing-date">
-Feb 29, 2008
-</div>
-<div class="listing-author">
-Author Name
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="edition-1" class="level2">
-<h2 class="anchored" data-anchor-id="edition-1">2022 Edition</h2>
-<div id="listing-2022-edition" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1204243200000" data-listing-file-modified-sort="1697065646859" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./editions/2022/article-1/index.html"> <p class="card-img-top"><img src="editions/2022/article-1/index_files/figure-html/fig-polar-output-1.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./editions/2022/article-1/index.html">
-<h3 class="no-anchor listing-title">
-Article Title 1
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Abstract of the work</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./editions/2022/article-1/index.html">
-<div class="listing-date">
-Feb 29, 2008
-</div>
-<div class="listing-author">
-Author Name
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1204243200000" data-listing-file-modified-sort="1697065646859" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./editions/2022/article-2/index.html"> <p class="card-img-top"><img src="editions/2022/article-2/index_files/figure-html/fig-polar-output-1.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./editions/2022/article-2/index.html">
-<h3 class="no-anchor listing-title">
-Article Title 2
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Abstract of the work</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./editions/2022/article-2/index.html">
-<div class="listing-date">
-Feb 29, 2008
-</div>
-<div class="listing-author">
-Author Name
-</div>
-</a>
-</div>
-</div>
-</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -532,6 +408,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>  </div> <!-- /content --> 
+    <footer class="footer"><div>© Center for Spatial and Textual Analysis, Stanford University</div></footer>
   
 
 </body></html>
