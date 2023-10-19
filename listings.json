@@ -1,14 +1,9 @@
 [
   {
-    "listing": "/docs/index.html",
+    "listing": "/index.html",
     "items": [
-      "/docs/setting-up-the-submodule/index.html"
-    ]
-  },
-  {
-    "listing": "/editions/index.html",
-    "items": [
-      "/editions/2023/index.html"
+      "/editions/2023/know-systemic-racism/index.html",
+      "/editions/2023/grand-tour-project/index.html"
     ]
   },
   {
@@ -19,10 +14,15 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/editions/index.html",
     "items": [
-      "/editions/2023/know-systemic-racism/index.html",
-      "/editions/2023/grand-tour-project/index.html"
+      "/editions/2023/index.html"
+    ]
+  },
+  {
+    "listing": "/docs/index.html",
+    "items": [
+      "/docs/setting-up-the-submodule/index.html"
     ]
   }
 ]
